@@ -9,16 +9,11 @@ package ClaseBaseReloj;
  * @author Luisf
  */
 public abstract class Tiempo {
-<<<<<<< HEAD
+
     protected int hora;
     protected int minuto;
     protected int segundo;
-=======
-    private int hora;
-    private int minuto;
-    private int segundo;
     protected boolean activo;
->>>>>>> 97af526 (clases)
 
     public Tiempo() {
         this.hora = 0;
