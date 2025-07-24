@@ -14,8 +14,8 @@ import java.util.Date;
 public class Reloj {
 
     // Devuelve la hora actual en formato HH:mm:ss
-    public static String obtenerHoraActual() {
-        SimpleDateFormat formato = new SimpleDateFormat("HH:mm:ss");
-        return formato.format(new Date());
+        public static SimpleDateFormat obtenerHoraActual() {
+        SimpleDateFormat formato = new SimpleDateFormat("hh:mm:ss");
+        return formato;
     }
 }
