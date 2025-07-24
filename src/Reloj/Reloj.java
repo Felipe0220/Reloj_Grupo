@@ -8,14 +8,19 @@ package Reloj;
  *
  * @author kevin
  */
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import ClaseBaseReloj.Tiempo;
 
-public class Reloj {
 
-    // Devuelve la hora actual en formato HH:mm:ss
-        public static SimpleDateFormat obtenerHoraActual() {
-        SimpleDateFormat formato = new SimpleDateFormat("hh:mm:ss");
-        return formato;
+public class Reloj extends Tiempo implements Configurable {
+
+   
+ 
+    
+    @Override
+    public void configurar(int h, int m, int s) {
+       this.hora=h;
+       this.minuto=m;
+       this.segundo=s;
+               
     }
 }
