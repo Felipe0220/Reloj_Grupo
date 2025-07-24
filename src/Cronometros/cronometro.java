@@ -14,11 +14,11 @@ public class cronometro extends Tiempo implements Controlable {
 
     @Override
     public void inicar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        this.activo=true;
     }
 
     @Override
     public void detener() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+         this.activo=false;
     }
 }
