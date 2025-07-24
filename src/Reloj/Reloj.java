@@ -13,7 +13,10 @@ import ClaseBaseReloj.Tiempo;
 
 public class Reloj extends Tiempo implements Configurable {
 
-   
+   public Reloj (){
+       super();
+       this.activo=true;//revisar variable
+   }
  
     
     @Override
